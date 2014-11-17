@@ -1,0 +1,12 @@
+<div class="game">
+  <h1>The BS Game</h1>
+  <h2>Find the truth in the bs</h2>
+  <div class="claims">
+    <% @claims.each do |claim| %>
+      <div class="claim">
+        <h4><%= claim.subject %></h4>
+        <button class="claimCheck" onclick="checkAnswer(this)" data-truth=<%= claim.truth %>>The Truth</button>
+      </div>
+    <% end %>
+  </div>
+</div>

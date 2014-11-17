@@ -1,0 +1,25 @@
+// Place all the styles related to the Claim controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.game{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.claims {
+  
+}
+.claim {
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+  vertical-align: top;
+}
